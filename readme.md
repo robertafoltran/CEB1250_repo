@@ -1,4 +1,4 @@
-## method: print if a number is odd or even
+## method: print if a number is odd or even in python
 def name():
     number = int(input("Enter a number: "))
     if (number % 2 == 0):
