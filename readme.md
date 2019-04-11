@@ -7,3 +7,12 @@ def name():
         print("This is an odd number")
 
 name()
+
+
+#Write a method that takes a number and print its square
+def sqr(x):
+    y=x**2
+    print(y)
+
+sqr(4)
+
