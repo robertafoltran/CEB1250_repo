@@ -20,4 +20,9 @@ What is the difference between "having" clause and "where" clause
 Having is used inside an aggregation function while "where" is used outside
 
 
-Write an SQL that returns the employee name and titel for all employees with even number as actual salary (to date is 9999-01-01)
+Write an SQL that returns the employee name and title for all employees with even number as actual salary (to date is 9999-01-01)
+mysql> SELECT employees.emp_no,first_name,last_name,salary,to_date 
+  FROM salaries 
+  JOIN employees ON employees.emp_no = salaries.emp_no 
+    WHERE MOD(salary,2)=0 and to_date = "9999-01-01";
+
