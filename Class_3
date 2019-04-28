@@ -1,0 +1,23 @@
+Write a SQL query to get the third highest salary of an employee from employee_table
+
+mysql> SELECT employees.emp_no,first_name,last_name,salary 
+  FROM salaries 
+  LEFT JOIN employees ON employees.emp_no = salaries.emp_no 
+    ORDER BY salary 
+    DESC LIMIT 3;
++--------+------------+-----------+--------+
+| emp_no | first_name | last_name | salary |
++--------+------------+-----------+--------+
+|  43624 | Tokuyasu   | Pesch     | 158220 |
+|  43624 | Tokuyasu   | Pesch     | 157821 |
+| 254466 | Honesty    | Mukaidono | 156286 |
++--------+------------+-----------+--------+
+3 rows in set (0.90 sec)
+
+
+
+What is the difference between "having" clause and "where" clause
+Having is used inside an aggregation function while "where" is used outside
+
+
+Write an SQL that returns the employee name and titel for all employees with even number as actual salary (to date is 9999-01-01)
