@@ -1,12 +1,12 @@
-Which file structure will be more close to a relational database?
+Q1. Which file structure will be more close to a relational database?
   Limited (comma limited or other)
 
 
-Is AVRO the same thing as JSON, what is the difference?
+Q2. Is AVRO the same thing as JSON, what is the difference?
   No; JSON is similar to a dictionary; AVRO has more references (more metadata)
 
 
-What is the difference between PARQUET and a delimited file type?
+Q3. What is the difference between PARQUET and a delimited file type?
   Parquet surpports nested values;
   Apache Parquet is designed to bring efficient columnar storage of data compared to row-based files like CSV.
   Apache Parquet is built from the ground up with complex nested data structures in mind.
@@ -14,5 +14,33 @@ What is the difference between PARQUET and a delimited file type?
   Apache Parquet allows for lower data storage costs and maximized effectiveness of querying data with serverless technologies like Amazon Athena, Redshift Spectrum, and Google Dataproc.
 
 
-Which kind of compression algorithm allows to consume data using parallel processing?
+Q4. Which kind of compression algorithm allows to consume data using parallel processing?
   Bzip2
+
+Q5. Define a scenario where ACID properties are needed, enlist 3 reasons why.
+    A: Transactions involving money
+      1. Consistency
+      2. No tolerance to errors
+      3. Speed is not critical
+ 
+ Q6. Define a scenario where ACID properties are needed, enlist 3 reasons why.
+    A: IoT
+      1. Speed
+      2. Avoid dead lock
+      3. error tolerant
+ 
+ 
+Q7. Your client wants to find potential clients based on their locations or interests, what would you suggest?
+    A: Graph based
+    
+Q8. You need to store the logs from your billing system in a way that they will become easy to access.
+    A: Document
+    
+Q9. You want to analyze the most accessed site of your e-commerce platform over the time. Where would you store the data?
+    A: Columnar
+
+Q10. You want to store the inventory of your website contents per endpoints. The page contents will be labelled with the page endpoint accessed, for quick access. Which database solution you would choose?
+    A: Key based
+
+Q11. You have to store financial information about your clients, such as balance account and personal information. Which one you will use?
+    A: Relational database
