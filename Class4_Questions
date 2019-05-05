@@ -1,0 +1,18 @@
+Which file structure will be more close to a relational database?
+  Limited (comma limited or other)
+
+
+Is AVRO the same thing as JSON, what is the difference?
+  No; JSON is similar to a dictionary; AVRO has more references (more metadata)
+
+
+What is the difference between PARQUET and a delimited file type?
+  Parquet surpports nested values;
+  Apache Parquet is designed to bring efficient columnar storage of data compared to row-based files like CSV.
+  Apache Parquet is built from the ground up with complex nested data structures in mind.
+  Apache Parquet is built to support very efficient compression and encoding schemes.
+  Apache Parquet allows for lower data storage costs and maximized effectiveness of querying data with serverless technologies like Amazon Athena, Redshift Spectrum, and Google Dataproc.
+
+
+Which kind of compression algorithm allows to consume data using parallel processing?
+  Bzip2
