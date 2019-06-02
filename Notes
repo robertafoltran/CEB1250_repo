@@ -7,3 +7,22 @@ Nagios
 
 https://open.nytimes.com/publishing-with-apache-kafka-at-the-new-york-times-7f0e3b7d2077
 
+Maybe a replacement for Parquet:
+https://orc.apache.org
+
+Devops tools:
+
+docker
+CHEF
+Ansible
+Teraform
+Jenins
+Git
+Jira
+Confluence
+Elk
+Splunk
+Gitlab - does pretty much everything that the other tools do
+
+Tableau-like: looker
+
