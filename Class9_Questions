@@ -1,0 +1,9 @@
+Q1. Create three keys named key1,key2,key3 andk ey4 with the respective values “This is a test key”, 6, 9.0 and “hello”
+A. mset key1 "This is a test key" key2 6 key3 9.0 ke4 "hello"
+
+
+Q2. Increase the value of key2 by 10
+A2. incrby key2 10
+
+
+Q3. 
