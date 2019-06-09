@@ -22,3 +22,6 @@ Q7. Delete the key4
 
 
 Q8. Verify if key4 exists
+
+Q9. 
+A9. create (webber:captain {name:"Shea Michael Webber", acquired:2016, position:"Defense"})
