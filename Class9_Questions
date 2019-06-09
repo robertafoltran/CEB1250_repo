@@ -6,4 +6,19 @@ Q2. Increase the value of key2 by 10
 A2. incrby key2 10
 
 
-Q3. 
+Q3. Change the value of key1 starting from the 14 position to “ to appending text”
+
+
+Q4. Subtract .50 from the key3 value
+
+
+Q5. Append “World” into key4
+
+
+Q6. Return the value of keys 1 to 4
+
+
+Q7. Delete the key4
+
+
+Q8. Verify if key4 exists
